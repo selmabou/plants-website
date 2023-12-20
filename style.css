@@ -1,0 +1,591 @@
+#logo{
+    height: 90px;
+    width: 90px;
+    border-image: round;
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+}
+/* Style pour la barre de navigation */
+#navbar {
+  width: 99vw;
+  height: 90px;
+    background-color: #ffffff; /* Couleur de fond de la barre de navigation */
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    z-index: 1;
+  }
+  
+  .navbar-brand img {
+    width: 50px; /* Ajustez la largeur de votre logo */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #385f48; /* Couleur du texte des liens */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ecf0f1; /* Couleur du texte des liens au survol */
+  }
+  
+  /* Style pour la section d'accueil */
+  #home {
+    background-image: url('photos/background.jpg'); /* Ajoutez le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Couleur du texte dans la section d'accueil */
+    text-align: center;
+    padding: 100px 0; /* Espace intérieur de la section d'accueil */
+  }
+  
+  #home h3 {
+    font-size: 3em; /* Taille de la police pour le titre */
+  }
+  
+  #home p {
+    font-size: 1.5em; /* Taille de la police pour le texte */
+  }
+  
+  #btn {
+    background-color: #ffffff; /* Couleur du bouton */
+    color: #385f48; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    font-size: 1.2em; /* Taille de la police du bouton */
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #27ae60; /* Couleur du bouton au survol */
+  }
+  
+
+/* ------------------------------------------------------------------ */
+
+
+.about {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 80px 0;
+}
+
+.heading {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about .card {
+    overflow: hidden;
+    border: none;
+    box-shadow: #385f48;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+.about h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#about-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #385f48; /* Set your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+#plantscare {
+    text-align: center;
+    margin: 20px;
+  }
+
+  #plantscare .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #plantscare h3 {
+    font-size: 24px;
+    color:#385f48;
+  }
+
+  #plantscare p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  #plantscare iframe {
+    display: none; /* Initially hide the iframe */
+    width: 100%;
+    max-width: 90wv;
+    height: 80vh;
+    background-color: #385f48;
+    border: 1px solid #264633;
+  }
+  
+
+  /* ------------------------------------------------------------------ */
+
+  /* Style pour la section plantscare */
+#plantscare {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+  }
+  
+  #plantscare .content {
+    text-align: center;
+  }
+  
+  #plantscare h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #plantscare p {
+    font-size: 1.2em;
+    color: #50946d;
+  }
+  
+  #plantscare button {
+    background-color: #385f48;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #plantscare iframe {
+    display: none;
+    margin-top: 20px;
+  }
+
+
+
+
+  
+  /* Style pour la section e-shop */
+  .e-shop {
+    background-color: #fff;
+    padding: 60px 0;
+    color: #385f48;
+  }
+  
+  .e-shop .heading3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .e-shop .card {
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+  }
+  
+
+
+  
+  .e-shop .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .e-shop img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .e-shop h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .e-shop p {
+    font-size: 1.2em;
+    color: #50946d;
+  }
+  
+  .e-shop .fa-cart-shopping {
+    color: #e07f00;
+    margin-left: 5px;
+  }
+  
+.product-details-container{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  z-index: 99;
+
+  background:rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+  filter:blur(2px);
+    
+}
+
+.product-details{
+  width: 80vw;
+  height: 90vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.product-details .close-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 50px;
+  height: 20px;
+  color: #22a356;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.product-details .product-img {
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  transform: translate(0,-50%);
+  max-width: 40%;
+  height: 90%;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+.product-details .product-title {
+  font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    color: #333;
+    margin-left: 430px;
+    font-size: xx-large;
+}
+.product-details .product-price {
+
+  font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(74, 161, 74);
+    margin-left: 430px;
+    font-size:medium;
+}
+
+.product-about h3{
+  margin-left: 430px;
+
+}
+
+.product-about p{
+  margin-left: 430px;
+  font-size: medium;
+  color: #666;
+
+}
+
+
+#buynow{
+  color: #ffffff;
+  margin-left: 430px;
+  border-radius: 10%;
+  background-color: #3c8d5d;
+
+
+  
+}
+
+
+#quantity{
+  color: #ffffff;
+  margin-left: 430px;
+  border-radius: 10%;
+  background-color: #3c8d5d;
+}
+
+
+
+.product-note h4{
+  margin-left: 430px;
+  font-size: smaller;
+  color: #333;
+}
+
+.product-note p{
+
+  margin-left: 430px;
+  font-size: medium;
+  color: #666;
+}
+
+
+/* ------------------------------------------ */
+
+
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  /* Add some basic styling to the product section */
+  #artplants {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ 
+  .heading4 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#385f48;
+    margin-left: 50px;
+  }
+ 
+  /* Style the product cards */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .col-md-3 {
+    flex: 0 0 24%;
+    margin-bottom: 20px;
+  }
+ 
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+ 
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .card-body {
+    padding: 15px;
+  }
+ 
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+ 
+  p {
+    font-size: 16px;
+    color: #50946d;
+  }
+ 
+  span i {
+    margin-left: 5px;
+    color: #e07f00;
+  }
+ 
+  /* Style the strike-through price */
+  strike {
+    color: #50946d;
+    margin-right: 5px;
+  }
+ 
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .col-md-3 {
+      flex: 0 0 48%;
+    }
+  }
+
+
+
+
+  /* ------------------------------------------------- */
+
+  /* Ajoute une marge en haut à la section de décoration */
+#decoration {
+    margin-top: 50px;
+  }
+
+
+
+  
+  /* Style pour le titre "Decoration Idea" */
+  #decoration h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #385f48;
+  }
+  
+  /* Style pour le span dans le titre */
+  #decoration span {
+    color: #385f48; /* Couleur du texte */
+  }
+  
+  /* Style pour les cartes */
+  .card {
+    border: 1px solid #ddd; /* Bordure de la carte */
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden; /* Pour cacher tout dépassement d'image */
+  }
+  
+  /* Ajoute une ombre aux cartes au survol */
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ajoute une marge en haut aux rangées de cartes */
+  .row {
+    margin-top: 20px;
+  }
+  
+  /* Style pour les images dans les cartes */
+  .card img {
+    width: 100%; /* Pour que l'image remplisse la largeur de la carte */
+    height: auto; /* Pour maintenir le rapport hauteur-largeur de l'image */
+  }
+  
+
+
+
+
+  /* -------------------------------------------------------- */
+
+  /* Ajouter un style à la section "Contact Us" */
+#contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+
+
+  .contact-image {
+    max-width: 500px;
+    height: 400px;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Style pour le titre "Contactez-nous" */
+  #contact h2 {
+    font-size: 2em;
+    color: #385f48;
+  }
+  
+  /* Style pour le paragraphe de description */
+  #contact p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Style pour le formulaire */
+  #contact form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: #385f48;
+   
+  }
+  
+  /* Style pour les champs du formulaire */
+  #contact form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les champs de texte */
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton Envoyer */
+  #contact form button {
+    background-color: #385f48;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton Envoyer au survol */
+  #contact form button:hover {
+    background-color: #385f48;
+  }
+
+
+
+
+  /* ------------------------------------------- */
+
+
+  /* Styles for the footer */
+#footer {
+    background-color: #385f48;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the footer logo */
+  .footer-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Styles for the social links */
+  .socail-links i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  /* Styles for the copyright text */
+  .copyright {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  
