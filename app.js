@@ -35,21 +35,22 @@ cards.forEach(element => element.addEventListener("click", function (e) {
           it can be placed and carried easily everywhere you desire.
           NO MAINTENANCE REQUIRED - no need trim and watering for people
           who have a busy schedule or but want to enjoy the overflowing 
-          of greenery in office, conference hall as the tabletop plants .     </p> 
+          of greenery in office, conference hall as the tabletop plants .
+          Outlets and voltage differ internationally and this product may require an  .     </p> 
     
     <div class="product-note">
           <h4>Note:</h4>
           <p>
             Products with electrical plugs are designed for use in the US. 
             Outlets and voltage differ internationally and this product may require an 
+            who have a busy schedule or but want to enjoy the overflowing 
+          of greenery in office, conference hall as the tabletop plants .
            
           </p>
-        </div>
+        
 
     </div> 
-    
-    <button type="button" id="buynow" onclick="myFunction()">BUY NOW !</button> 
-    
+
     <div id="quantity">
     <label for="quantitySelect">Quantity:</label>
     <select id="quantitySelect">
@@ -58,7 +59,11 @@ cards.forEach(element => element.addEventListener("click", function (e) {
       <option value="3">3</option>
       <!-- Add more options as needed -->
     </select>
-  </div>`
+    </div>
+    <br>
+    <button type="button" id="buynow" onclick="myFunction()">BUY NOW !</button> 
+    
+`
 
 
 

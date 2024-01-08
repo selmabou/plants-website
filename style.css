@@ -1,6 +1,6 @@
 #logo{
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     border-image: round;
 }
 body{
@@ -9,9 +9,8 @@ body{
 }
 /* Style pour la barre de navigation */
 #navbar {
-  width: 99vw;
-  height: 90px;
-    background-color: #ffffff; /* Couleur de fond de la barre de navigation */
+    width: 99vw;
+    background-color: #ffffff;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -319,7 +318,7 @@ body{
 #buynow{
   color: #ffffff;
   margin-left: 430px;
-  border-radius: 10%;
+  border-radius: 7%;
   background-color: #3c8d5d;
 
 
@@ -327,11 +326,11 @@ body{
 }
 
 
-#quantity{
+#quantitySelect{
   color: #ffffff;
-  margin-left: 430px;
+  margin-left: 362px;
   border-radius: 10%;
-  background-color: #3c8d5d;
+  color: #50946d;
 }
 
 
