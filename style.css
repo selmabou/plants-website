@@ -165,10 +165,10 @@ body{
   
   #plantscare p {
     font-size: 1.2em;
-    color: #50946d;
+    color: #385f48;
   }
-  
-  #plantscare button {
+
+  .primary-button {
     background-color: #385f48;
     color: #fff;
     padding: 10px 20px;
@@ -224,7 +224,7 @@ body{
   
   .e-shop p {
     font-size: 1.2em;
-    color: #50946d;
+    color: #385f48;
   }
   
   .e-shop .fa-cart-shopping {
@@ -320,23 +320,15 @@ body{
 
 }
 
-
-#buynow{
-  color: #ffffff;
+.product-about .primary-button {
   margin-left: 430px;
-  border-radius: 7%;
-  background-color: #3c8d5d;
-
-
-  
 }
 
-
-#quantitySelect{
+#quantity{
   color: #ffffff;
-  margin-left: 362px;
+  margin-left: 430px;
   border-radius: 10%;
-  color: #50946d;
+  color: #385f48;
 }
 
 
@@ -419,7 +411,7 @@ body, h1, h2, h3, p, img {
  
   p {
     font-size: 16px;
-    color: #50946d;
+    color: #385f48;
   }
  
   span i {
@@ -429,7 +421,7 @@ body, h1, h2, h3, p, img {
  
   /* Style the strike-through price */
   strike {
-    color: #50946d;
+    color: #385f48;
     margin-right: 5px;
   }
  

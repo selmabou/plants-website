@@ -61,7 +61,7 @@ cards.forEach(element => element.addEventListener("click", function (e) {
     </select>
     </div>
     <br>
-    <button type="button" id="buynow" onclick="myFunction()">BUY NOW !</button> 
+    <button type="button" class="primary-button" onclick="myFunction()">BUY NOW !</button> 
     
 `
 
