@@ -20,6 +20,7 @@ body{
     left: 50%;
     transform: translate(-50%,0%);
     z-index: 1;
+    
   }
   
   .navbar-brand img {
@@ -27,36 +28,36 @@ body{
   }
   
   .navbar-nav .nav-link {
-    color: #385f48; /* Couleur du texte des liens */
+    color: #385f48; 
   }
   
   .navbar-nav .nav-link:hover {
-    color: #ecf0f1; /* Couleur du texte des liens au survol */
+    color: #ecf0f1; 
   }
   
   /* Style pour la section d'accueil */
   #home {
-    background-image: url('photos/background.jpg'); /* Ajoutez le chemin de votre image de fond */
+    background-image: url('photos/background.jpg');
     background-size: cover;
     background-position: center;
-    color: #ffffff; /* Couleur du texte dans la section d'accueil */
+    color: #ffffff; 
     text-align: center;
-    padding: 100px 0; /* Espace intérieur de la section d'accueil */
+    padding: 100px 0; 
   }
   
   #home h3 {
-    font-size: 3em; /* Taille de la police pour le titre */
+    font-size: 3em;
   }
   
   #home p {
-    font-size: 1.5em; /* Taille de la police pour le texte */
+    font-size: 1.5em;
   }
   
   #btn {
-    background-color: #ffffff; /* Couleur du bouton */
-    color: #385f48; /* Couleur du texte du bouton */
-    padding: 10px 20px; /* Espace intérieur du bouton */
-    font-size: 1.2em; /* Taille de la police du bouton */
+    background-color: #ffffff; 
+    color: #385f48; 
+    padding: 10px 20px; 
+    font-size: 1.2em;
     text-decoration: none;
     border: none;
     cursor: pointer;
@@ -477,8 +478,8 @@ body, h1, h2, h3, p, img {
   
   /* Style pour les images dans les cartes */
   .card img {
-    width: 100%; /* Pour que l'image remplisse la largeur de la carte */
-    height: auto; /* Pour maintenir le rapport hauteur-largeur de l'image */
+    width: 100%; 
+    height: auto; 
   }
   
 
